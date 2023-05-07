@@ -41,6 +41,8 @@ A javítónak adok egy irányadót, ami szerint tud majd pontozni.
 
 - Szubjektív pontozás a projekt egészére vonatkozólag (mennyire fedi le a projekt a témakört (mennyire kapcsolódik hozzá), mennyi lehet a befektetett energia a projektben)	6	tetszőleges - ****Ez rajtad függ, és a jóindulatodon :D. Én magamnak egy 3, maximum 4 pontot adnék.****
 
+****Összesen(ahogy én számoltam, szubjektív pont nélkül): 25 pont.****
+
 ****Legyen szép napod!****
 
 
