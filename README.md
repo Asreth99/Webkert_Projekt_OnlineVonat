@@ -1,27 +1,49 @@
-# Trainticket2
+# Webfejlesztési Keretrendszerek Gyakorlat, Online Vonatjegy foglaló alkalmazás.
+A javítónak adok egy irányadót, ami szerint tud majd pontozni.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+- Fordítási hiba nincs	1	pont- ****KÉSZ, nincs fordítási hiba.****
 
-## Development server
+- Futtatási hiba nincs	1 pont	- ****KÉSZ, nincs futási hiba****
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Firebase Hosting URL (létezik, és minden végpont megfelelő módon betöltődik)	1 Pont	- ****KÉSZ, https://traintickets-d25d7.web.app/****
 
-## Code scaffolding
+- Adatmodell definiálása (legalább 4 TypeScript interfész vagy class formájában (ugyanennyi kollekció))	2 Pont	-**** 3 létező Interfészem van, Cities.ts, Items.ts, Users.ts****
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Alkalmazás felbontása megfelelő számú komponensre (egyetlen komponens TS és HTML kódja sem haladja meg a 250 sort és soronként a 400 karaktert)	1 Pont	****- KÉSZ, Egyik komponensem, és modulom sem haladja meg.****
 
-## Build
+- Reszponzív, mobile-first felület (minden adat látható és jól jelenik meg böngészőben is, mobil nézetben is)	2 Pont	-  ****Nem jutott időm a felső menu bar reszponzívvá tételére.****
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Legalább 2 különböző attribútum direktíva használata	1 Pont	0,5 pont/attribútum direktíva.
 
-## Running unit tests
+- Legalább 2 különböző strukturális direktíva használata	1 Pont	-**** KÉSZ, Több helyen is előfordul *ngFor, és *ngIf is.****
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Adatátadás szülő és gyermek komponensek között (legalább 1 @Input és 1 @Output)	1 Pont	-**** Nem valósítottam meg.****
 
-## Running end-to-end tests
+- Legalább 10 különböző Material elem helyes használata.	5	Pont - ****Button, Card, DatePicker, Expansion Panel, Input Field, Select, Table, Stepper, toolbar. Ez 9 db, összesen: 4.5 Pont.****
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Adatbevitel Angular form-ok segítségével megvalósítva (legalább 2)	2 Pont - ****KÉSZ a signup.component-ben lehet találni egyből 2 Formot****
 
-## Further help
+- Legalább 1 saját Pipe osztály írása és használata	2	- ****Nem csináltam meg.****
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Legalább 2 különböző Lifecycle Hook használata a teljes projektben (értelmes tartalommal, nem üresen)	1	-**** ngOnInit van több helyen is használva.****
+
+- CRUD műveletek mindegyike megvalósult (Promise, Observable használattal)	4	- ****Az UPDATE művelet kivételével mindegyik megvalósult, Promise vagy Observable használatával. A shared/services-ben a booking.service, cart.service-ben megtalálod. (3 pont)****
+
+- CRUD műveletek service-ekbe vannak kiszervezve és megfelelő módon injektálva lettek	1	ha bármilyen third-party művelet (pl.: Firestore művelet) komponensből kerül közvetlenül meghívásra, 1 pont -**** KÉSZ****
+
+- Firestore adatbázis használata az adatokhoz (integráció, környezeti változók használata helyes legyen)	1	Pont - ****KÉSZ****
+
+- Legalább 2 komplex Firestore lekérdezés megvalósítása (ide tartoznak: where feltétel, rendezés, léptetés, limitálás)	4 -**** KÉSZ shared/services-ben megtalálod, szinte az összes service-ben van ilyen lekérdezés.****
+
+- Legalább 4 különböző route a különböző oldalak eléréséhez	1 - ****KÉSZ app-routing-module-ban látható.****
+
+- Legalább 2 route levédése azonosítással (AuthGuard) (ahol ennek értelme van, pl.: egy fórum témakör megtekinthető bárki számára, de a regisztrált felhasználó adatai nem)	2 Pont - ****KÉSZ A kosár illetve a foglalt jegyek vannak levédve.****
+
+- Szubjektív pontozás a projekt egészére vonatkozólag (mennyire fedi le a projekt a témakört (mennyire kapcsolódik hozzá), mennyi lehet a befektetett energia a projektben)	6	tetszőleges - ****Ez rajtad függ, és a jóindulatodon :D. Én magamnak egy 3, maximum 4 pontot adnék.****
+
+****Összesen(ahogy én számoltam, szubjektív pont nélkül): 25 pont.****
+
+****Legyen szép napod!****
+
+
+
