@@ -1,0 +1,13 @@
+<mat-toolbar class="mat-toolbar">
+    <span>Train Tickets</span>
+    <div fxFlex fxLayout fxLayoutAlign="flex-end">
+    <ul fxLayout fxLayoutGap="50px" class="navigation-items">
+      <li><a routerLink="/home">Kezdőlap</a></li>
+      <li><a routerLink="/foglalt-jegyek">Foglalt jegyek</a></li>
+      <li><a routerLink="/kosar">Kosár</a></li>
+      <li *ngIf="!(loggedInUser)"><a routerLink="/profil">Profil</a></li>
+      <li *ngIf="loggedInUser"><a routerLink="/profil" (click) ="logout()">Kijelentkezés</a></li>
+
+    </ul>
+  </div>
+  </mat-toolbar>

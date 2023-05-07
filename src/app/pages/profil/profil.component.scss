@@ -1,0 +1,38 @@
+.example-card {
+    background-color: rgb(11, 187, 143);
+    margin: 0 auto;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16),
+              0 3px 5px 0 rgba(0, 0, 0, 0.23),
+              0 3px 5px 0 rgba(0, 0, 0, 0.42);
+    width: 20%;    
+  }
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .mat-form-field{
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .buttonClass{
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .example-card {
+    width: 100%;
+    max-width: 500px;  //opcionális
+    margin: 20px;      //opcionális
+  } 

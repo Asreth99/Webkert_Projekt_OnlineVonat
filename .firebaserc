@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "traintickets-d25d7": {
+      "hosting": {
+        "trainticket2": [
+          "traintickets-d25d7"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "traintickets-d25d7"
+  }
+}

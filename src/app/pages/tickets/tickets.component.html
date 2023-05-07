@@ -1,0 +1,30 @@
+<h1>Selected passenger: {{ selectedPassenger === 'adult-1' ? 'Adult(26-59)' : selectedPassenger === 'youth-01' ? 'Youth(0-25)' : 'Senior(60+)' }}</h1>
+<h1>Selected date: {{ outDate | date }}</h1>
+<h1 *ngIf="returnDate">Returning date: {{ returnDate | date }}</h1>
+<table>
+    <thead>
+      <tr>
+        <th>From</th>
+        <th>To</th>
+        <th>Departure</th>
+        <th>Arrival</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+ 
+      <ng-container *ngFor="let city of citiesArray">
+        <ng-container *ngFor="let departure of city.schedule.departure; let i = index">
+          <tr>  
+            <td>{{ city.from }}</td>
+            <td>{{ city.to }}</td>
+            <td>{{ departure }}</td>
+            <td>{{ city.schedule.arrival[i] }}</td>
+            <td>{{ selectedPassenger === 'adult-1' ? city.ar : selectedPassenger === 'youth-01' ? city.ar * 0.5 : city.ar * 0.1 }}</td>
+            <td><button mat-raised-button (click)="addToCart(city, i)" routerLink="/kosar">Kosárba tesz</button></td>
+          </tr>
+        </ng-container>
+      </ng-container>
+    </tbody>
+  </table>
+ 

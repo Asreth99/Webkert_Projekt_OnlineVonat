@@ -1,0 +1,62 @@
+.example-card {
+    background-color: rgb(11, 187, 143);
+    margin: 0 auto;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16),
+              0 3px 5px 0 rgba(0, 0, 0, 0.23),
+              0 3px 5px 0 rgba(0, 0, 0, 0.42);
+    width: 40%;    
+  }
+
+.radio-group {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .radio-button {
+    margin-right: 30px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .mat-form-field{
+    display: flex;
+    margin-top: 20px;
+  }
+
+.out-date{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+  .return-date{
+    margin-top: 20px;
+    margin-left: 30px;
+
+  }
+
+  .mat-accordion{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .example-card {
+    width: 100%;
+    max-width: 500px;  //opcionális
+    margin: 20px;      //opcionális
+  } 
+
+  

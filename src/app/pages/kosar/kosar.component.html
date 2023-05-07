@@ -1,0 +1,32 @@
+
+<h1>Kosár</h1>
+
+<table>
+    <thead>
+      <tr>
+        <th>Indulás dátuma</th>
+        <th>Érkezés dátuma</th>
+        <th>From</th>
+        <th>To</th>
+        <th>Ar</th>
+        <th>Utas Típus</th>
+        <th>Indulás</th>
+        <th>Érkezés</th>
+        <th>Törlés</th>
+      </tr>
+    </thead>
+    <tbody> 
+      <tr *ngFor="let item of items"> 
+        <td >{{item.outdate.toDate().toLocaleDateString()}}</td>
+        <td>{{ item.returndate ? item.returndate.toDate().toLocaleDateString() : '-' }}</td>
+        <td>{{ item.from }}</td>
+        <td>{{ item.to }}</td>
+        <td>{{ item.ar }}</td>
+        <td>{{ item.selectedPassenger}}</td>
+        <td>{{ item.departure }}</td>
+        <td>{{ item.arrival }}</td>
+        <td><button mat-raised-button (click)="deleteItem(item)">Törlés</button></td>
+        <td><button mat-raised-button (click)="saveBooking(item)" routerLink="/foglalt-jegyek">Lefoglalás</button></td>
+      </tr>
+    </tbody>
+  </table>
