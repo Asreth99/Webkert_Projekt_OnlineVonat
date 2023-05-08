@@ -1,5 +1,12 @@
 # Webfejlesztési Keretrendszerek Gyakorlat, Online Vonatjegy foglaló alkalmazás.
-A javítónak adok egy irányadót, ami szerint tud majd pontozni.
+A javítónak adok egy irányadót, ami szerint
+ tud majd pontozni.
+
+KERESHETŐ VÁROSOK: 
+
+BUDAPEST - SZEGED, 
+GYULA - BÉKÉSCSABA, 
+SZEGED - BÉKÉSCSABA
 
 - Fordítási hiba nincs	1	pont- ****KÉSZ, nincs fordítási hiba.****
 
