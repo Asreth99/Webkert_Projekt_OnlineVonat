@@ -1,12 +1,20 @@
 # Webfejlesztési Keretrendszerek Gyakorlat, Online Vonatjegy foglaló alkalmazás.
 A javítónak adok egy irányadót, ami szerint
- tud majd pontozni.
+ tud majd pontozni.l
 
 KERESHETŐ VÁROSOK: 
 
-BUDAPEST - SZEGED, 
-GYULA - BÉKÉSCSABA, 
-SZEGED - BÉKÉSCSABA
+- BUDAPEST - SZEGED, 
+- GYULA - BÉKÉSCSABA, 
+- SZEGED - BÉKÉSCSABA
+
+
+ÁRAK VÁLTOZÁSA:
+
+A keresőben, ha keresel, és beállítod a passenger typot a következőképpen változik az ár:
+- Adult - Teljes ár
+- Youth - 50% az árnak
+- Senior - 90% -al olcsóbb
 
 PONTOZÓ TÁBLA:
 
