@@ -8,6 +8,8 @@ BUDAPEST - SZEGED,
 GYULA - BÉKÉSCSABA, 
 SZEGED - BÉKÉSCSABA
 
+PONTOZÓ TÁBLA:
+
 - Fordítási hiba nincs	1	pont- ****KÉSZ, nincs fordítási hiba.****
 
 - Futtatási hiba nincs	1 pont	- ****KÉSZ, nincs futási hiba****
